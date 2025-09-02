@@ -1,0 +1,40 @@
+-->What is Software?
+Ans:Software is a collection of programs that help us to perform a task.
+
+-->Types of Software:
+
+1.Application Software:A software that is designed to perform a task for users and in specific case for an application.
+Ex:Adobe photoshop,Spotify,Notepad,etc.
+
+2.System Software:A main software that runs a computer.
+Ex:Operating System,device driver,etc.
+
+3.Programming Software:A software that is used to write program , maintaing it ,debugging it,etc.
+Ex:Intellij Idea,Vs code,etc.
+
+-->What is Software Testing?
+Ans:Software testing is a part of software development process where product is verified and validate to ensure:
+1.bugfree
+2.meets the customer reqiurements
+3.timely delivered within budget
+4.matainable product
+
+-->Why Software Testing is important?
+1.cost-effective
+2.secrity
+3.product quality
+4.customer satisfcation
+
+-->Error,Bug/defect,Failure
+1.Error:A human mistake made during software development (coding, design, or requirement analysis) that can lead to a defect in the software.
+Ex:A developer writes = instead of == in a condition:
+
+2.Bug/Defect:A bug or defect is a flaw in the software that causes it to behave incorrectly or not meet requirements. Usually detected during testing.
+Ex:
+Requirement: “The system should accept passwords of 8–16 characters.”
+Implementation allows passwords of only 6–16 characters.
+This is a defect/bug in the software.
+
+3.Failure:A failure occurs when a defect is executed in the real system, causing it to behave incorrectly or crash. It is visible to the user.
+Ex:Due to the above defect, a user enters a 7-character password, and the login system crashes or denies access.
+This is a failure.
