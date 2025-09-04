@@ -1,0 +1,57 @@
+1.What is Software development life cycle(SDLC)?
+Ans->The software development life cycle is process used in software development to plan,write and modify software.SDLC is a systematic process for building software that ensure quality and correcteness of the software built.It provides a framework for a standard set of activities and deliverables.
+
+-->Phases of SDLC:
+1.Requirement , Gathering & analysis
+2.design
+3.development
+4.Testing
+5.Deployement
+6.Maintenance
+
+-->Models of SDLC:
+1. Waterfall Model
+-->Definition:
+Waterfall is a linear sequential SDLC model where the process flows step by step (Requirement → Design → Implementation → Testing → Deployment → Maintenance).
+-->Advantages:
+-Simple and easy to understand.
+-Phases are clearly defined.
+-Best for small projects with fixed requirements.
+-Strong documentation support.
+-->Disadvantages:
+-Difficult to make changes once a phase is completed.
+-Poor at handling risks.
+-Not suitable for large/complex projects.
+-Working software is delivered late.
+
+2. Spiral Model
+-->Definition:
+Spiral is a risk-driven SDLC model where development happens in cycles (spirals). Each cycle includes 4 stages: Planning, Risk Analysis, Engineering, and Evaluation.
+-->Advantages:
+-Strong focus on risk analysis.
+-Suitable for large and complex projects.
+-Customer feedback is received at every cycle.
+-Flexible – changes can be made easily.
+-->Disadvantages:
+-Expensive and time-consuming.
+-Requires highly skilled professionals for risk analysis.
+-Not suitable for small projects.
+-Process is complex to manage.
+
+3. V-Model (Verification & Validation Model)
+-->Definition:
+V-Model is an extension of the Waterfall model where development and testing go in parallel. Each development phase has a corresponding testing phase (e.g., Requirements ↔ Acceptance Testing, Design ↔ Integration Testing).
+-->Advantages:
+-Testing is done at every stage → bugs found early.
+-Simple and easy to apply for small/medium projects.
+-Ensures strong quality assurance.
+-Well-structured and systematic approach.
+-->Disadvantages:
+-Rigid → difficult to handle changes.
+-Not very effective for large/complex projects.
+-Customer involvement is low during development.
+-Working software is delivered late.
+
+
+*White box testing(unit testing):Done by the developer(Coder).
+*Black box testing:Done by the testing team contains functional testing,integration testing,system team.
