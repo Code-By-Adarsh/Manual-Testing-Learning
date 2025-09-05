@@ -26,7 +26,7 @@ Suppose you built a hotel management website.
 -The overall color scheme, font, and design should look professional and consistent.
 -->👉 In short, GUI testing ensures that the front-end of the application is user-friendly, functional, and visually correct.
 
-2.Usability Testing or User Experience(Ux) Testing:
+2.Usability Testing or User Experience(UX) Testing:
 Usability / User Experience (UX) Testing is a type of software testing that focuses on how easy, efficient, and pleasant it is for real users to use the application.It does not just test whether the application works (like functional testing) but checks how well it works from the user’s point of view.
 --Key Points:
 -Measures ease of use: Is the app simple to navigate?
