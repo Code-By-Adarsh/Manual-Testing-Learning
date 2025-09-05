@@ -1,0 +1,41 @@
+--Levels of Software Testing:
+There are mainly 4 types of testing:
+1.Unit Testing:Checks if software component fulfilling functionalities or not.It is done by the developer in developement environment.It is also called white-box testing.
+
+2.Integration Testing:Integration means combining it checks the data flow from one module to another module properly.In this testing phase different modules are combined and tested as a group to make sure that Integrated system is ready for the system testing.It is done by the tester not neccessary having the knowledge of coding.It is also called black-box testing.
+
+--Approaches of Integration Testing:
+1. Big Bang Approach
+In this approach, all modules are integrated together at once and then tested.
+👉 Example: You directly integrate Login, Room Booking, Payment, Feedback, and Admin Panel modules of your hotel management website and test everything in one go.
+✅ Advantage: Saves time for small systems.
+❌ Disadvantage: If booking fails, it’s very hard to know whether the problem is in login, booking, or payment.
+
+2. Top-Down Approach
+Here, testing starts from the top-level module and goes step by step downwards. For missing lower modules, we use stubs.
+👉 Example: In your hotel website, you first test the Main Dashboard/Admin Panel, then integrate Room Booking, then Payment, and finally Feedback. If Payment module is not ready, you create a stub to simulate it.
+✅ Advantage: Control flow of the website (Dashboard → Booking → Payment) is tested early.
+❌ Disadvantage: Lower modules like Feedback or Email Notification are tested late.
+
+3. Bottom-Up Approach
+Here, testing starts from the lowest-level modules and goes upwards step by step. For missing higher modules, we use drivers.
+👉 Example: You first test the Database (room availability, booking records, payment storage), then connect it with Room Booking Module, and later integrate with the Main Dashboard. If Dashboard is not ready, you use a driver to simulate it.
+✅ Advantage: Backend/database errors are caught early.
+❌ Disadvantage: Complete website flow (Login → Booking → Payment) is tested late.
+
+4. Sandwich / Hybrid Approach
+This is a combination of Top-Down and Bottom-Up approaches. Testing starts from the middle-level modules and proceeds both upwards and downwards.
+👉 Example: In your hotel website, you start with the Booking Module (middle), then connect upwards with Dashboard/Login, and downwards with Database and Payment.
+✅ Advantage: Benefits of both approaches (control + backend reliability).
+❌ Disadvantage: More complex and costly.
+
+3.System Testing:It performed on Integration system.It involves load,performance testing,reliability and security testing.It allows checking system compliance as per the requirements.It is end-to-end testing where the testing environment is parallel to the production environment.In the third level of software testing,we will test the application as a whole system.It focuses on:
+a.Functional testing
+b.non-unctional testing
+c.Graphical user interface(GUI) testing
+d.usability testing
+
+4.User Acceptance Testing:Acceptance testing is conducted by the customer/stake holders/users/domain experts for their satisfaction before accepting the final product.This is the fourth level of testing.
+--Types of User Acceptance Testing:
+a.Alpha testing:Customer does in developement environment.
+b.Beta testing:Customer does in customer environment.

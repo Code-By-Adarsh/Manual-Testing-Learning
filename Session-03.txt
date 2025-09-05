@@ -1,0 +1,34 @@
+-->Participates of Review Process:
+1.The Moderator:Lead the review process.His role is to determine the type of review,scheduling meeting,distribute documents to other participates.
+2.The Author:He is the writer of "document under review".His job to understand improvement.
+3.The writer/scribber/recorder:He is responsible to record each defect found any suggestions given in the meeting for process improvements.
+4.The Reviewer:to check defect and further improvement.
+
+-->Difference between Technical Review,Walkthrough and Inspection:
+1. Technical Review
+👉 A technical review is a formal meeting where a group of technical experts check a software product (like design, code, or documents) to find mistakes and suggest improvements.
+Focus: Quality, correctness, and standards compliance.
+Example: Reviewing a code module to ensure it follows coding standards and works as intended.
+
+2. Walkthrough
+👉 A walkthrough is a step-by-step presentation of a software product by the author to the team. The purpose is to explain the product, get feedback, and find errors.
+Focus: Understanding and feedback.
+Example: A developer explains his program line by line to the team so they can understand and suggest changes.
+
+3. Inspection
+👉 An inspection is a very formal and strict type of review where trained reviewers carefully check the product to detect defects. It follows a defined process with roles (moderator, reader, author, etc.).
+Focus: Defect detection with rules and checklists.
+Example: Inspecting a requirements document using a checklist to find missing or incorrect requirements.
+
+⚖️ In short:
+Technical Review → Quality check by experts.
+Walkthrough → Author explains product for understanding & feedback.
+Inspection → Formal defect-finding process with rules.
+
+-->Quality Assurance(QA) VS Quality Control(QC)
+-QA:Quality Assurance involves in process-oriented activities.It ensure the prevention of defects in the process and used to make software applications. So the defects don't arise when the software application is being developed.It aims to prevents defects.It is responsible for SDLC.
+
+-QC:Quality Control involves in product-oriented activities.It execute the program or code to identify the defects in the software application.It aims to identify and fix defects.It is responsible for STLC.
+
+-Quality Engineer(QE):Write the code for software testing.
+-Software Engineer:Write the code for software developement.

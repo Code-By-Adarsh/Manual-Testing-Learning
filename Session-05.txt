@@ -1,0 +1,43 @@
+-->System Testing:
+System tesing is 3rd level of testing which focuses on verifying the system as a whole meets specified requirements.This is performed after Integration testing and before User Acceptance testing.This is performed by the testing team indepenedent of developing team.It is black-box testing.This is performed in testing environment parallel to the developing environment.
+
+--System Testing Process:
+1.Test environment setup
+2.Test plan creation
+3.Test case preparation
+4.Test data preparation
+5.Test case execution
+6.Defect report preparation
+7.Retest & Regression testing
+8.signoff
+
+--There are 4 Types of System Testing:
+1.GUI testing (Graphical User Interface testing): A type of software testing that focuses on checking the visual elements and user interactions of an application.In simple terms, it is done to make sure that the application’s screens, buttons, menus, forms, and other graphical elements look correct and work as expected when a user interacts with them.
+--Key Points:
+-It verifies that the design, layout, and navigation follow the requirements.
+-It checks if input fields, buttons, drop-downs, checkboxes, and other controls work properly.
+-It ensures consistency in color, font, alignment, and overall look & feel.
+-It tests user actions like clicking, typing, dragging, or selecting.
+--Example (Hotel Management Website):
+Suppose you built a hotel management website.
+-In GUI testing, you will check if the "Book Now" button is visible and clickable.
+-When a user selects dates from the calendar widget, it should display properly and not overlap.
+-The login form should accept valid input and show error messages for invalid input.
+-The overall color scheme, font, and design should look professional and consistent.
+-->👉 In short, GUI testing ensures that the front-end of the application is user-friendly, functional, and visually correct.
+
+2.Usability Testing or User Experience(Ux) Testing:
+Usability / User Experience (UX) Testing is a type of software testing that focuses on how easy, efficient, and pleasant it is for real users to use the application.It does not just test whether the application works (like functional testing) but checks how well it works from the user’s point of view.
+--Key Points:
+-Measures ease of use: Is the app simple to navigate?
+-Checks efficiency: Can users quickly achieve their goals (like booking a hotel room in a few steps)?
+-Evaluates learnability: Can a new user understand the system without help?
+-Tests satisfaction: Do users feel comfortable and happy using it?
+--Example (Hotel Management Website):
+Imagine you have created your hotel management website:
+-Navigation – Can a first-time user easily find the “Search Hotels” option?
+-Booking flow – Is the process of selecting dates, choosing a hotel, and making a booking smooth and not confusing?
+-Error handling – If a user enters the wrong email in the login form, is the error message clear (e.g., “Please enter a valid email”)?
+-Mobile-friendliness – Does the website look good and work properly on mobile phones?
+-User satisfaction – After booking, do users feel the process was quick and trustworthy?
+-->👉 In short, Usability/UX testing ensures that the website is not only functional but also user-friendly, intuitive, and gives a good experience to the customer.
