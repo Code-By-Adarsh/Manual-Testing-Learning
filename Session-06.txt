@@ -1,0 +1,33 @@
+3.Functional Testing is a type of software testing where the focus is on checking whether the application’s features (functions) work according to requirements.
+--It answers the question:
+👉 “Does the software do what it is supposed to do?”
+-->Key Points:
+-Tests each function of the software by giving inputs and checking outputs.
+-Based on requirements (not how it looks, but how it works).
+-Checks core features like login, booking, payments, database updates, etc.
+-Usually performed using techniques like black-box testing.
+-->Example (Hotel Management Website):
+In functional testing, you will check:
+-Login Functionality – If a user enters correct credentials, they should log in successfully; if wrong, an error should appear.
+-Hotel Search – When a user enters city + dates, the system should show available hotels.
+-Booking – After clicking “Book Now,” the system should reserve the hotel room and update availability.
+-Payment – If a user pays, the transaction should be processed and confirmation should be sent.
+-Contact Form – When a user submits the contact form, the data should be stored or emailed correctly.
+-->👉 In short, functional testing ensures that the software features work correctly as per the requirements.
+
+--Testers follows the following steps:
+1.Verification/analysis of the requirements specification in the software application.
+2.Create test plan.
+3.design test case.
+4.Make requirements traceability matrix(RTM) is to trace the requirements with its corresponding test scenerios and test case.
+5.Execute test case design
+6.analysis of the coverage to examine the covered testing area of the application.Find the area of requirement not implemented by a set of test case.Helps to create additional test cases to increase coverage.Identifying meaningless test cases that do not increase coverage.
+7.Defect management should do to manage defect resolving.[IMG-Defect Management]
+
+--Testing that done under the functional testing:
+1.Database testing
+2.Calculation testing
+3.Error handling testing
+4.Hypeerlink testing in web application
+5.Cookie testing(on client side)
+6.Session testing(on server side)

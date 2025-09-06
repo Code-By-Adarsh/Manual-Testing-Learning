@@ -1,0 +1,36 @@
+4.Non-functional Testing:
+-Non-Functional Testing is a type of software testing that focuses on how well the software works, rather than whether the features themselves work correctly.
+--It answers the question:
+👉 “How does the system perform under different conditions?”
+-->Key Points:
+-Checks performance, speed, reliability, security, scalability, and usability.
+-Not about what the system does, but how well it does it.
+-Ensures the application can handle real-world conditions like heavy traffic, security threats, or different devices.
+-->Example (Hotel Management Website):
+In non-functional testing, you will check things like:
+-Performance Testing – Can the website handle 1,000 users booking hotels at the same time without crashing?
+-Load Testing – How fast do hotel search results load when many users are online?
+-Security Testing – Are payment details (like credit card numbers) encrypted and safe from hackers?
+-Compatibility Testing – Does the website work smoothly on Chrome, Firefox, Safari, and mobile devices?
+-Reliability Testing – If the server restarts, does the website recover quickly without data loss?
+-->👉 In short, non-functional testing ensures the system is fast, secure, reliable, and performs well under expected and unexpected conditions.
+
+--Non-functional testing types:
+1.Performance testing:
+a.Load testing:slowly/graduly increase the load on the application/system and check response time/speed of the application.
+b.Stress testing:suddenly increase the load on the application/system and check response time/speed of the application.
+c.Volume testing:We evaluate how much data application is able to handle or we can evaluates the behaviour of the applications when large amount of data is passed.
+
+2.Security testing:Evaluates how secure is our application, to ensure there is no loophole in the application leads to threat or data loss.This include testing of Authentication and Authorization.
+Authentication:who you are
+Authorization/Access:what you can do
+
+3.Recovery testing:check that application terminates gracefully in case of failure then data can be recovered.
+
+4.Compatibility Testing – Does the website work smoothly on Chrome, Firefox, Safari, and mobile devices?
+a.Forward Compatibility:This testing is performed to check the behaviour and Compatibility of the hardware or software with their new version.
+b.Backward Compatibility:This testing is performed to check the behaviour and Compatibility of the hardware or software with their older version.
+
+5.Instability testing:Checks if the software install and uninstall correctly.
+
+6.Sanitation/Garbage testing:During this testing testers are finding extra functionality in build with respect to customer requirements.
