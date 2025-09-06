@@ -1,0 +1,30 @@
+-->🔹 Smoke Testing
+-Definition: A type of software testing performed to ensure that the basic and critical functionalities of the application work fine after a new build or update.
+-Purpose: To check whether the build is stable enough for further, deeper testing.
+-Scope: Shallow and wide (covers major features but not in detail).
+-When done: Right after receiving a new build.
+-->Example:
+-In your hotel booking website, after a new build, smoke testing would check:
+-Can the website open?
+-Can users log in?
+-Can they search hotels?
+-Can they book?
+-If any of these fail, testers reject the build.
+
+-->🔹 Sanity Testing
+-Definition: A type of software testing performed after a minor change or bug fix to verify that the specific functionality is working correctly and hasn’t broken related modules.
+-Purpose: To confirm the rationality of the build after small changes.
+-Scope: Narrow and deep (focuses on specific functionality).
+-When done: After receiving a minor build update.
+-->Example:
+-Suppose the payment gateway bug was fixed in your hotel booking website.
+-Sanity testing would check:
+-Is the payment gateway working now?
+-Are related features like invoice generation and booking confirmation still fine?
+
+-->✅ Key Difference:Smoke Testing → “Is the build stable enough for testing?” (broad check).
+Sanity Testing → “Was the new change/bug fix implemented correctly?” (specific check).
+
+-->👉 Easy memory tip:
+-Smoke = Health checkup of the whole body 🩺
+-Sanity = Focused check on the part that got treated 🔍

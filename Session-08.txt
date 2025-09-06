@@ -1,0 +1,40 @@
+-->Regression Testing:
+Regression Testing is a type of software testing performed to ensure that new code changes (like bug fixes, enhancements, or new features) have not introduced defects into the existing functionality of the software.
+-->👉 In simple terms: It checks that old features still work as expected after modifications.
+-->Key Points:
+-Done after code changes, updates, or patches.
+-Focuses on previously tested parts of the application.
+-Ensures stability and reliability of the software.
+-Can be performed manually, but usually automated to save time.
+-->Example:
+-Suppose you have an online hotel booking website.
+-You fix a bug in the payment gateway.
+-After the fix, you perform regression testing to make sure that login, hotel search, booking, and contact form are still working fine and not broken due to the recent code changes.
+
+-->Types of Regression Testing:
+1.Unit regression testing:Testing only the changed features is called unit regression testing.
+2.Partial/Regional regression testing:test the modifications along with it impact areas or regions.To find the impacted area,impact analysis meeting is conducted and impact list is prepared.
+3.Complete regression testing:Test the modification along with the remaining areas.
+
+-->Re-Testing:
+-Re-Testing is a type of software testing performed to verify that a specific defect or bug, which was found and fixed by the developers, is now resolved and working correctly.
+-->👉 In simple words: Re-testing checks the exact same test case that previously failed, to confirm the bug fix.
+-->Key Points:
+-Always done on the failed test cases after a defect fix.
+-Focuses only on the specific bug/feature that was fixed.
+-It is planned and executed with the same test data and environment where the defect occurred.
+-Unlike regression testing, it does not check the whole system—only the defect fix.
+-->Example:
+-Suppose in your hotel booking website, the “Contact Form” submit button was not working.
+-The bug is reported and fixed by developers.
+-Now, testers will Re-test the same Contact Form submission with the same input to confirm that the bug is fixed and the form works properly.
+-->⚖️ Difference from Regression Testing:
+Re-Testing = Check the bug fix (specific).
+Regression Testing = Check that other existing features are not broken (broader).
+
+-->✅ Key Difference:
+-Unit Regression Testing → ensures changes in code (unit) don’t break existing functionality.
+-Re-Testing → ensures a specific bug fix works correctly (same test case that failed earlier).
+-->👉 Think of it like this:
+-Re-testing = "Did the bug actually get fixed?"
+-Unit Regression = "Did my new code changes break the existing behavior of this unit?"

@@ -1,0 +1,22 @@
+-->🔹 Ad-hoc Testing
+-Definition: Ad-hoc testing is an informal and unstructured type of software testing performed without test cases, plans, or documentation.
+-Purpose: To find defects through random and creative testing approaches that are not covered in formal test cases.
+-Who performs: Usually done by experienced testers who have good knowledge of the application.
+-When done: Anytime, but commonly after formal testing, to try and break the system in unexpected ways.
+-->Example:
+In your hotel booking website:
+Formal testing checks hotel search with valid inputs like “Mumbai” or “Pune.”
+But in Ad-hoc testing, the tester might try random inputs like:
+Very long strings (“aaaaaaaa…”)
+Special characters (“@$%#^”)
+Empty values
+Booking with negative price
+These tests are not written in any document, but may uncover hidden bugs.
+
+-->✅ Key Points:
+-No proper planning or documentation.
+-Performed randomly, based on tester’s intuition and experience.
+-Helps to discover unexpected defects.
+
+-->👉 Easy memory tip:
+-Ad-hoc = "On the spot, no plan" testing 🎯
