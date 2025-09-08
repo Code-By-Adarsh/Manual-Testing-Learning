@@ -20,3 +20,34 @@ These tests are not written in any document, but may uncover hidden bugs.
 
 -->👉 Easy memory tip:
 -Ad-hoc = "On the spot, no plan" testing 🎯
+
+-------------------------------------------------
+-->Exploratory Testing:
+-Exploratory Testing is a type of software testing where testers actively explore the application without predefined test cases, learning about the system while simultaneously designing and executing tests. The focus is on finding defects through investigation, intuition, and experience rather than following a scripted process.
+-->Key Characteristics:
+-Simultaneous Learning and Testing: Testers explore the app, understand its behavior, and test it at the same time.
+-Ad-hoc Approach: There are no fixed test cases; testing is guided by tester creativity and intuition.
+-Defect Discovery Focused: Helps uncover issues that scripted testing might miss.
+-Time-boxed: Often done within a set period, making it efficient for rapid testing cycles.
+-Documentation: Notes and observations are recorded during or after testing for analysis and reporting.
+-->Example:
+-A tester might randomly navigate through a web application, try unusual input combinations, click buttons in unexpected sequences, or test edge cases to see if the system breaks.
+-->Summary:
+Exploratory testing is a hands-on, flexible, and creative approach to testing that emphasizes learning the system and discovering defects that might not be caught through formal, scripted tests.
+
+--------------------------------------------------------------
+-->Monkey Testing
+-Definition:
+Monkey Testing is a random testing technique where the tester (or an automated tool) inputs random data, clicks randomly, or performs unexpected actions on the software to see if it crashes or behaves incorrectly. The tester does not need to know the system or have predefined test cases.
+-->Key Points:
+-Tests are completely random.
+-Focus is on stability and crash testing.
+-Usually used in software robustness testing.
+-Can be manual or automated.
+-->Example:
+Typing random characters in a form, clicking buttons in a random order, or providing invalid inputs to see if the application crashes.
+
+--------------------------------------------
+-->Summary:
+-Monkey Testing: Random, no knowledge needed, aims to crash the system.
+-Ad-hoc Testing: Informal, knowledge-based, aims to find defects quickly.

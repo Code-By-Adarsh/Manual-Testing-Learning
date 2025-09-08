@@ -1,0 +1,45 @@
+-->Positive Testing
+-Definition:
+Positive testing is a type of software testing where the tester checks if the system behaves as expected with valid input data. The goal is to verify that the application works correctly under normal conditions.
+-->Key Points:
+-Uses valid inputs and correct workflows.
+-Confirms that the system meets the requirements.
+-Helps ensure the application functions as intended.
+-->Example:
+-Entering a valid username and password to log in successfully.
+Submitting a form with all required fields filled correctly.
+
+-------------------------------------------------------
+-->Negative Testing
+-Definition:
+Negative testing is a type of software testing where the tester checks how the system behaves with invalid, unexpected, or incorrect input data. The goal is to ensure the application handles errors gracefully.
+-->Key Points:
+-Uses invalid or boundary inputs.
+-Ensures the system does not crash and shows proper error messages.
+-Focuses on robustness and error handling.
+-->Example:
+-Entering an invalid email in a signup form.
+-Leaving mandatory fields empty and submitting a form.
+-->Summary:
+-Positive Testing: “Does it work when used correctly?” ✅
+-Negative Testing: “Does it fail safely when used incorrectly?” ❌
+
+---------------------------------------------------
+--End-to-End (E2E) Testing:
+-Definition:
+End-to-End Testing is a type of software testing where the entire application is tested from start to finish to ensure that all integrated components and systems work together as expected. It simulates real user scenarios to validate the workflow of the application.It is also called chain testing and usually performed aafter positive testing and negative testing.
+-->Key Points:
+-Tests the complete flow of an application, including frontend, backend, databases, and third-party integrations.
+-Focuses on system integration and overall functionality.
+-Often performed after unit, integration, and system testing.
+-Ensures the application behaves correctly in a real-world scenario.
+-->Example:
+-For an e-commerce website:
+-User logs in.
+-Searches for a product.
+-Adds the product to the cart.
+-Makes a payment.
+-Receives a confirmation email.
+-End-to-end testing checks if all these steps work together seamlessly.
+-->Summary:
+-End-to-End testing ensures the entire system works as a whole, not just individual parts. It validates the complete user journey.
