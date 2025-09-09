@@ -1,0 +1,24 @@
+-->Software Testing Life Cycle(STLC):
+It is a sequence of activities performed during the software testing process to ensure quality and meet requirements. Each phase has its own entry and exit criteria.
+
+-->Phases of STLC
+-Requirement Analysis
+Test team studies and understands the requirements.
+Identifies which requirements are testable.
+-Test Planning
+Defines test strategy and objectives.
+Estimates time, effort, cost, and resources.
+Assigns roles and responsibilities.
+-Test Case Development
+Test cases are designed and written.
+Test data is prepared.
+Peer reviews are conducted.
+-Test Environment Setup
+Hardware and software environment is prepared.
+Tools, servers, and databases are configured.
+-Test Execution
+Test cases are executed.
+Defects/bugs are reported when actual vs expected results differ.
+-Test Cycle Closure
+Test summary report is prepared.
+Metrics, defect analysis, and lessons learned are documented.
