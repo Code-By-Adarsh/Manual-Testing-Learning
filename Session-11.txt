@@ -27,7 +27,7 @@ Negative testing is a type of software testing where the tester checks how the s
 ---------------------------------------------------
 --End-to-End (E2E) Testing:
 -Definition:
-End-to-End Testing is a type of software testing where the entire application is tested from start to finish to ensure that all integrated components and systems work together as expected. It simulates real user scenarios to validate the workflow of the application.It is also called chain testing and usually performed aafter positive testing and negative testing.
+End-to-End Testing is a type of software testing where the entire application is tested from start to finish to ensure that all integrated components and systems work together as expected. It simulates real user scenarios to validate the workflow of the application.It is also called chain testing and usually performed after the functional testing and system testing. 
 -->Key Points:
 -Tests the complete flow of an application, including frontend, backend, databases, and third-party integrations.
 -Focuses on system integration and overall functionality.

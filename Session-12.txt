@@ -1,0 +1,41 @@
+-->Test Case Design Techniques:
+-Test Case Design Techniques are systematic methods used to derive effective test cases that ensure good coverage of requirements, reduce redundancy, and increase the chances of finding defects. These techniques help testers design test cases in a structured way rather than randomly testing.
+
+-->They are generally divided into three categories:
+-------------------------------------------------------------
+1. Black-Box Test Design Techniques
+-Used when the tester does not know the internal code/logic of the software. Focus is on input, output, and system behavior.
+1.Equivalence Partitioning (EP)/Equivalence class Partitioning(ECP):
+-Divide input data into partitions (valid and invalid) and test only one value from each partition.
+-Example: If age must be 18–60, partitions are: below 18, between 18–60, above 60.
+
+2.Boundary Value Analysis (BVA):
+-Test values at boundaries because errors often occur there.
+-Example: For age 18–60 → test 17, 18, 60, 61.
+
+-->ECP and BVA are used in input domain testing.
+
+3.Decision Table Testing:
+-Use a decision table to test different combinations of inputs/conditions.
+-Example: Login requires correct username + correct password.
+[Img:-Decision Table Testing(01) and Decision Table Testing(02)]
+
+4.State Transition Testing:
+-This testing is used when the features of a system represents as a state which transform into another state due to events/inputs.
+-Example: ATM → states: Idle → Card Inserted → PIN Entered.
+[Img:State Transition Testing]
+
+--------------------------------------------------
+2. White-Box Test Design Techniques
+-Used when the tester knows the internal structure, code, and logic of the software.
+1.Statement Coverage: Ensure every statement in the code executes at least once.
+2.Decision/Branch Coverage: Ensure each decision (true/false) executes at least once.
+3.Condition Coverage: Ensure each condition in a decision evaluates to true and false.
+4.Path Coverage: Ensure all possible paths in the code are executed.
+
+----------------------------------------------------
+3. Experience-Based Test Design Techniques
+-Relies on tester’s knowledge, skills, and past experience.
+1.Error Guessing: Tester guesses the most likely defects based on experience.
+2.Exploratory Testing: Simultaneous learning, test design, and execution without formal test cases.
+3.Checklist-Based Testing: Use checklists of common defects to design test cases.
