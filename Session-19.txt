@@ -1,0 +1,32 @@
+-->Test Closure Phase Activities
+-The Test Closure Phase is the final phase of the Software Testing Life Cycle (STLC). It ensures that the testing process is properly completed and documented.
+-->Main activities include:
+-Check Test Completion – Verify that all planned test cases are executed and major defects are resolved.
+-Defect Analysis – Review defect statistics (fixed, open, deferred, rejected).
+-Archiving Test Artifacts – Store test cases, scripts, test data, logs, and reports for future use.
+-Collect Metrics – Capture testing metrics to measure effectiveness and efficiency.
+-Lessons Learned / Retrospective – Discuss what went well and what needs improvement in the next cycle.
+-Prepare Test Closure Report – Summarize the entire testing effort.
+
+------------------------------------------------
+-->Test Metrics
+-Metrics = measurable values that indicate the progress, quality, and effectiveness of testing.
+-Examples of common test metrics:
+-Defect Density = Defects found / Size of the module (e.g., per KLOC or Function Point).
+-Defect Leakage = Defects found after release / Total defects.
+-Test Case Execution Rate = (Executed Test Cases / Total Test Cases) × 100.
+-Defect Removal Efficiency (DRE) = (Defects removed before release / Total defects) × 100.
+-Test Coverage = (Requirements covered by test cases / Total requirements) × 100.
+-Pass/Fail Percentage = % of test cases passed vs failed.
+
+--------------------------------------------------
+-->Test Closure Report
+-This is the final document prepared in the Test Closure phase. It provides a complete summary of testing.
+-Typical contents include:
+-Test Summary – Scope, objectives, modules tested.
+-Test Deliverables – Test cases, scripts, data, reports archived.
+-Metrics & Results – Execution status, defect statistics, DRE, coverage.
+-Defect Analysis – Number of defects found, fixed, open, deferred.
+-Risks & Issues – Any unresolved risks or open items.
+-Lessons Learned – Improvements for future projects.
+-Sign-off – Formal approval from stakeholders that testing is complete.

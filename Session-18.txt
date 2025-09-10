@@ -1,0 +1,52 @@
+-->✅ Defect
+-A Defect (also called bug, error, fault, or issue) is a deviation between the expected result and the actual result of a software application.
+-Matlab: Jab software requirement ke hisaab se kaam nahi karta, to usse defect bolte hain.
+-->👉 Example:
+-Requirement: "Login button should redirect to Dashboard."
+-Actual: Login button crashes the app.
+-➡️ Ye ek defect hai.
+
+-------------------------------------------
+-->✅ Defect Report
+-A Defect Report is a formal document that contains all the details about a defect found during testing.
+-Isme defect ko identify, reproduce, aur fix karne ke liye zaruri information hoti hai.
+-->📌 Contents of a Defect Report (common fields)
+-Defect ID – Unique identifier.
+-Title/Summary – Short description of the defect.
+-Description – Detailed explanation of the defect.
+-Steps to Reproduce – Exact steps tester followed to find the defect.
+-Expected Result – What should have happened.
+-Actual Result – What actually happened.
+-Environment Details – OS, browser, version, device, etc.
+-Severity – Impact on the system (Blocker/Critical/Major/Minor).
+.Blocker-problem in major flow,due to which testing cannot be continued.
+.Critical-problem in major features/functionalities,due to which testing cannot be continued.
+.Major-any undesirable behaviour.
+.Minor-bug which does not impact the functionalities.
+-Priority – Order in which it should be fixed (High/Medium/Low).
+-Status – New, Open, Fixed, Retest, Closed, Rejected, Deferred.
+-Assigned To – Developer responsible for fixing it.
+-Reported By – Name of the tester.
+-Date Reported / Fixed – Timeline info.
+-Attachments – Screenshots, logs, videos (if any).
+-->📖 Example of a Defect Report (Login Module)
+-Defect ID: BUG_001
+-Title: Login button not working
+-Description: On clicking the login button, nothing happens.
+-Steps to Reproduce:
+-Open login page
+-Enter valid username and password
+-Click on login button
+-Expected Result: User should be redirected to the dashboard.
+-Actual Result: Page remains on login screen, no action performed.
+-Severity: High
+-Priority: High
+-Status: New
+-Environment: Windows 11, Chrome v115
+-Reported By: Adarsh Mishra
+-Assigned To: Dev_John
+-Attachments: Screenshot attached
+
+-->👉 Shortcut yaad rakh:
+Defect = Problem 😵
+Defect Report = Problem ki FIR 📝

@@ -1,0 +1,29 @@
+-->✅ Test Case Document
+-A Test Case Document is a detailed document that defines the test cases to be executed for a software application.
+-->It contains:
+-Step-by-step actions
+-Test data
+-Expected results
+-Actual results (after execution)
+-Pass/Fail status
+-->👉 Purpose: To ensure each functionality is tested in a structured and repeatable way.
+-->📌 Key Components of a Test Case Document
+-Test Case ID – Unique identifier (e.g., TC_Login_01).
+-Test Case Title/Name – Short description of the test (e.g., "Verify login with valid credentials").
+-Module/Feature Name – Which module this test belongs to (e.g., Login Module).
+-Preconditions – What must be true before executing the test (e.g., user must be registered).
+-Test Steps – Step-by-step actions to perform.
+-Test Data – Input values required (e.g., Username: user1, Password: pass@123).
+-Expected Result – What should happen after executing the steps.
+-Actual Result – What actually happened during test execution.
+-Status (Pass/Fail) – Result of the test after execution.
+-Priority/Severity – Importance of the test case (e.g., High/Medium/Low).
+-Executed By – Name of the tester.
+-Date of Execution – When the test was executed.
+-Comments/Notes – Additional info (e.g., bug ID if failed).
+[IMG:A test case example in excel]
+--------------------------------------------------
+Tools for Test Case Management:
+1.Excel (for small and college projects)
+2.TestRail (For big mnc's and future job tool way)
+3.Jira+Zephyr (A good duo where jira used for bug tracing and management and additional plugin used to test case management).

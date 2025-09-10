@@ -1,0 +1,49 @@
+-->✅ 1. Test Environment Setup
+-Definition:
+Test Environment is the setup of hardware + software + network + tools + configurations where testers execute test cases.Ye basically ek controlled environment hota hai jo production environment ke jaisa hota hai.
+
+-->🔹 Components of a Test Environment:
+-Hardware – Servers, client machines, mobile devices, etc.
+-Software – OS, databases, browsers, application under test.
+-Network/Configuration – Firewalls, VPN, IPs, cloud setups.
+-Test Data – Sample or dummy data for execution.
+-Tools – Automation tools (Selenium, Appium), Test management tools (Jira, TestRail), etc.
+
+-->🔹 Example:
+-For a Banking Web Application:
+-OS: Windows/Linux
+-Database: MySQL/Oracle
+-Web Server: Apache/Tomcat
+-Browser: Chrome, Firefox
+-Test Data: Customer IDs, Account Numbers
+-Tools: Selenium + TestNG for automation, Jira for bug tracking
+-->👉 Purpose: To make sure application works in a realistic environment before going live.
+
+-----------------------------------------------------
+-->✅ 2. Test Case Execution
+-Definition:
+Test Case Execution means running the test cases (manual ya automated) on the application in the test environment and comparing actual result vs expected result.
+
+-->🔹 Steps in Test Case Execution:
+-Ensure Test Environment is ready (server up, DB connected, app
+deployed).
+-Pick test cases from the Test Suite.
+-Execute test cases (manual → follow steps, automation → run scripts).
+-Record Actual Result.
+-Compare with Expected Result.
+-Mark test case as Pass or Fail.
+-If Fail → Raise a Defect in bug tracking tool (e.g., Jira, Bugzilla).
+-Retest after developer fixes it.
+
+-->🔹 Example:
+-Test Case: Verify login with valid credentials.
+-Steps: Open login page → Enter valid username/password → Click login.
+-Expected Result: Redirect to dashboard.
+-Actual Result: Redirect to dashboard.
+-Status: ✅ Pass
+-👉 Purpose: To check if the application works as per requirements.
+
+---------------------------------------------------------
+-->👉 Shortcut yaad rakh:
+Environment Setup = Playground banana 🎯
+Execution = Game khelna 🏏

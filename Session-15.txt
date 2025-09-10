@@ -1,0 +1,86 @@
+-->Use Case:
+-A Use Case is a written description of how a user (called an actor) interacts with a system to achieve a specific goal.It defines the functional requirements of a system from the end-user’s perspective and explains what the system should do, not how it will be implemented.
+
+-->✅ Key Points about a Use Case
+-Actor – The user or external system that interacts with the application.
+-Goal – The objective the actor wants to achieve.
+-System – The software or application that provides the service.
+-Scenario / Flow – The step-by-step sequence of interactions between actor and system.
+
+-->📌 Structure of a Use Case
+-Use Case Name – Describes the function (e.g., “User Login”).
+-Actors – Who initiates the use case (e.g., Registered User).
+-Preconditions – What must be true before the use case starts (e.g., User must have an account).
+-Trigger – The action that starts the use case (e.g., User clicks "Login").
+-Main Flow (Basic Flow) – The standard steps of interaction.
+-Alternate Flow – Variations or optional paths (e.g., Forgot Password).
+-Exceptions – Error handling or failure conditions (e.g., Invalid credentials).
+-Postconditions – What happens after successful completion (e.g., User is redirected to dashboard).
+
+-->📖 Example of a Use Case: "User Login"
+-Actor: Registered User
+-Precondition: User has a valid username and password.
+-Trigger: User clicks on the login button.
+-Main Flow:
+-User enters username and password.
+-System validates credentials.
+-System grants access to the user.
+-Alternate Flow: User clicks "Forgot Password" → System sends reset link.
+-Exception: Invalid credentials → Show error message.
+-Postcondition: User is logged into the system.
+
+-->👉 In short:
+A Use Case = A clear scenario that explains how a user interacts with a system to achieve a goal.
+
+-----------------------------------------
+-->✅ Test Scenario
+-A Test Scenario is a high-level description of what needs to be tested.It represents a real-world use case or functionality of the application.
+-Focus: What to test
+-Broad and abstract
+-Ensures end-to-end coverage
+-->👉 Example:
+-For a Login Page
+-Test Scenario 1: Verify that the user can log in with valid credentials.
+-Test Scenario 2: Verify that login fails with invalid credentials.
+-Test Scenario 3: Verify the "Forgot Password" functionality.
+
+----------------------------------------------------
+-->✅ Test Case
+-A Test Case is a detailed set of steps, inputs, and expected results created for each test scenario.It defines how to test a particular feature.
+-Focus: How to test
+-Detailed and specific
+-Ensures correctness and accuracy
+-->👉 Example:
+-For Test Scenario 1: User logs in with valid credentials
+-Test Case ID: TC001
+-Title: Verify successful login with valid username and password
+-Precondition: User has a registered account
+-Test Steps:
+-Open login page
+-Enter valid username
+-Enter valid password
+-Click on "Login" button
+-Expected Result: User should be redirected to the dashboard
+
+-->👉 Shortcut yaad rakhne ke liye:
+-Scenario = Story (what user wants to do)
+-Case = Steps (how tester will check it)
+
+------------------------------------------------------------
+-->Test Suite:
+A Test Suite is a collection (set) of test cases that are grouped together to test a particular feature, module, or the entire system.It helps organize and manage test cases so that testers can execute them systematically.
+
+-->📌 Key Points
+-A test suite may contain manual or automated test cases.
+-It is usually created in a Test Management Tool (like JIRA, TestRail, Quality Center, etc.).
+-Suites can be arranged feature-wise, module-wise, or release-wise.
+-Purpose: To make test execution structured and repeatable.
+
+-->📖 Example
+-For a Login Module, a Test Suite might include:
+-Test Case 1 – Verify login with valid credentials
+-Test Case 2 – Verify login with invalid credentials
+-Test Case 3 – Verify login with empty fields
+-Test Case 4 – Verify “Forgot Password” functionality
+-Test Case 5 – Verify system locks after 5 failed login attempts
+-->👉 Here, all these related test cases together form the Login Test Suite.

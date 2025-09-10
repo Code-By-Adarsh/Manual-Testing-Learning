@@ -1,0 +1,28 @@
+-->Test Plan:
+-A Test Plan Document is a formal document in software testing that describes the scope, objectives, approach, resources, schedule, and activities of the testing process. It acts as a blueprint or guide for the testing team, ensuring that everyone understands what needs to be tested, how it will be tested, and the expected outcomes.
+
+It is usually prepared by the Test Lead / QA Manager during the planning phase of the Software Testing Life Cycle (STLC).
+
+-->✅ Key Elements of a Test Plan Document
+-Test Plan Identifier – Unique ID or version of the test plan.
+-Introduction – Overview of the project, purpose of testing, and objectives.
+-Test Items – Features/modules of the software that need to be tested.
+-Features to be Tested – Specific functionalities and requirements to be validated.
+-Features Not to be Tested – Out-of-scope areas (to set clear boundaries).
+-Test Approach / Strategy – Testing techniques (manual, automation, functional, non-functional).
+-Pass/Fail Criteria – Conditions to determine test success or failure.
+-Test Deliverables – Documents and reports (test cases, test scripts, defect logs, summary report).
+-Test Environment – Hardware, software, tools, and configurations required.
+-Schedule & Milestones – Timeline for different testing phases.
+-Roles & Responsibilities – Who will perform which tasks.
+-Risks & Contingencies – Possible challenges and backup plans.
+-Approval – Sign-off details by stakeholders.
+
+-->📌 Purpose of a Test Plan Document
+-Acts as a roadmap for the testing process.
+-Helps manage scope and risks.
+-Ensures clarity and communication among stakeholders.
+-Provides a baseline for monitoring & controlling testing activities.
+
+-->👉 In short:
+A Test Plan Document = A master plan that answers what, why, how, when, and who of the testing activities.
