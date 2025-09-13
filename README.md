@@ -1,6 +1,6 @@
-# 📘 Manual Testing Learning with Projects  
+# 📘 Manual Testing Learning 
 
-Welcome to **Manual Testing Learning with Projects** 🚀  
+Welcome to **Manual Testing Learning** 🚀  
 This repo is my personal learning journal where I have documented every session in a structured way.  
 Each session covers important Manual Testing concepts 📑 with examples and explanations.  
 
