@@ -3,14 +3,11 @@ Ans:Software is a set of instructions that enables the computer hardware to perf
 
 -->Types of Software:
 
-1.Application Software:A software that is designed to perform a task for users and in specific case for an application.
-Ex:Adobe photoshop,Spotify,Notepad,etc.
+1.Application Software:A software that is designed to perform a task for users.
+Ex:Microsoft word, Google Chrome, Banking apps, e-commerce websites, etc.
 
-2.System Software:A main software that runs a computer.
-Ex:Operating System,device driver,etc.
-
-3.Programming Software:A software that is used to write program , maintaing it ,debugging it,etc.
-Ex:Intellij Idea,Vs code,etc.
+2.System Software:A main software that controls and manages computer hardware.
+Ex:Operating System like windows/linux,device driver,compiler,etc.
 
 -->What is Software Testing?
 Ans:Software testing is a part of software development process where product is verified and validate to ensure:
@@ -21,7 +18,7 @@ Ans:Software testing is a part of software development process where product is 
 
 -->Why Software Testing is important?
 1.cost-effective
-2.secrity
+2.security
 3.product quality
 4.customer satisfcation
 
