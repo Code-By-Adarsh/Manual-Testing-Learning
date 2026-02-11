@@ -3,8 +3,8 @@ Ans->The software development life cycle is process used in software development
 
 -->Phases of SDLC:
 1.Requirement , Gathering & analysis
-2.design
-3.development
+2.Design
+3.Development
 4.Testing
 5.Deployement
 6.Maintenance
