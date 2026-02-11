@@ -1,5 +1,5 @@
 -->What is Software?
-Ans:Software is a collection of programs that help us to perform a task.
+Ans:Software is a set of instructions that enables the computer hardware to perform specific tasks.
 
 -->Types of Software:
 
